@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val exampleString = dataClass.exampleString
         val exampleInt = dataClass.exampleInt
 
-
+        var x:String
 
         val button: Button = findViewById(R.id.button)
         button.setOnClickListener {
